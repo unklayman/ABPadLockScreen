@@ -46,6 +46,8 @@
     if (self)
     {
         self.delegate = delegate;
+        _setupScreenDelegate = delegate;
+        _enteredPin = nil;
     }
     return self;
 }
